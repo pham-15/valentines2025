@@ -1,5 +1,6 @@
 document.getElementById("yes").addEventListener("click", function () {
   document.getElementById("question").textContent = "Yay! ❤️";
+  document.getElementById("gif").src = "miffyCelebration.gif";
 });
 
 document.getElementById("no").addEventListener("mouseover", function () {
